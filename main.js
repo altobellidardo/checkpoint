@@ -2,6 +2,7 @@ import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.11.1/f
 import { auth } from './app/firebase.js'
 
 import './app/registrarse.js'
+import './app/signInForm.js'
 import './app/cerrarSesion.js'
 
 import { checkUser } from "./app/checkUser.js"

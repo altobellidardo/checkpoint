@@ -19,9 +19,10 @@
 </head>
 
 <body>
+  <!-- header -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/src">Checkpoint</a>
+      <a class="navbar-brand" href="/">Checkpoint</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -49,19 +50,42 @@
     </div>
   </nav>
 
+  <!-- sin sesion -->
+  <main class="sinSesion">
+    <div class="text-center py-5" style="background-image: url('https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+      <h1>Asistencias al alcance de todos</h1>
+      <p>Simplificando el seguimiento para todos</p>
+    </div>
+    <div id="banner" style="background-image: url('https://images.unsplash.com/photo-1538688423619-a81d3f23454b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+      <p>¡Toma tu asistencia fácilmente y ahorra tiempo para lo que realmente importa! Regístrate ahora y disfruta de un control sencillo y rápido de tu presencia en clase.</p>
+    </div>
+    <div id="banner" style="background-image: url('https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+      <p>Controlá la asistencia de tus alumnos y revisá para facilitar tu control. Registrate ahora y comprobá la nueva forma de tomar la asistencia.</p>
+    </div>
+  </main>
+
+  <!-- con sesion -->
   <main class="container my-5 text-center conSesion" id="output">
     <p>Bienvenido </p>
-    <p>Elige un rol</p>
-    <a href="/src/pages/alumnos.html" class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2">
-      Alumnos
+    
+    <a href="/perfil.html" class="d-inline-flex focus-ring py-2 px-3 text-decoration-none border rounded-2">
+      Perfil
     </a>
-    <a href="#" class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2">
-      Preceptores
-    </a>
-    <a href="#" class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2">
-      Profesores
+
+    <a href="/pages/alumnos.html" class="d-inline-flex focus-ring py-2 px-3 text-decoration-none border rounded-2">
+      Organización
     </a>
   </main>
+
+  <!-- footer -->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center px-4">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        Checkpoint
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2024</span>
+    </div>
+  </footer>
 
   <!-- Registrarse Modal -->
   <div class="modal fade" id="registrarse" tabindex="-1" aria-labelledby="registrarseLabel" aria-hidden="true">
